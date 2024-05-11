@@ -55,11 +55,12 @@ section.menu{
 .menu__list{
     display: flex;
     justify-content: space-between;
-    font-size: small;
 }
 
 .menu__list__item:nth-last-child(n+2){
     display: none;
+    font-family: "relway";
+    font-weight: 100;
 }
 
 

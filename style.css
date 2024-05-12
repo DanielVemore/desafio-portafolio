@@ -26,7 +26,7 @@ ol, ul,li {
 }
 a{
     text-decoration: none;
-    color: var(--cor-de-link);
+    color: var(--cor-de-texto);
 }
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
@@ -41,31 +41,56 @@ con una interfaz de usuario compleja, y permite la reutilización del código ex
 Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
+body{
+    margin: 10px 20px;
+}
+
+/* Cabeceras y otros */
+h3{
+    color: var(--cor-de-texto);
+    font-size: 18px;
+}
+
+
 /*Sección Menu*/
 
-section.menu{
-   display: flex;
-   
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cor-de-texto);
 }
+
 
 .menu__header{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu__header>img{
+    height: 22px;
 }
 
 .menu__list{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .menu__list__item:nth-last-child(n+2){
     display: none;
     font-family: "relway";
     font-weight: 100;
+    font-size: 11px;
 }
 
 
 /*Sección Title*/
 
 section.title{
+    display: flex;
 
 }
 

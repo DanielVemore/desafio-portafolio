@@ -43,7 +43,7 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 body{
-    margin: 10px 20px;
+    
 }
 
 /* Cabeceras y otros */
@@ -72,6 +72,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     color: var(--cor-de-texto);
+    margin: 10px 20px;
 }
 
 
@@ -103,7 +104,7 @@ h2{
 
 section.title{
     display: flex;
-
+    margin: 10px 20px;
 }
 
 .title__div>img{

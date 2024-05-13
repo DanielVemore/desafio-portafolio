@@ -52,7 +52,7 @@ h3{
     font-size: 18px;
 }
 
-h3.title__subsection{
+p{
     font-weight: 300;
     font-size: 17px;
     color: var(--cor-de-texto);
@@ -66,7 +66,7 @@ h2{
 
 /*Sección Menu*/
 
-.menu{
+section.menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -122,7 +122,7 @@ section.title{
 /*Sección About*/
 
 section.about{
-
+    margin: 10px 20px;
 }
 
 /*Sección Hobbies*/

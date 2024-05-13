@@ -23,6 +23,7 @@ body {
 }
 ol, ul,li {
     list-style: none;
+    padding: 0px;
 }
 a{
     text-decoration: none;
@@ -49,6 +50,17 @@ body{
 h3{
     color: var(--cor-de-texto);
     font-size: 18px;
+}
+
+h3.title__subsection{
+    font-weight: 300;
+    font-size: 17px;
+    color: var(--cor-de-texto);
+}
+
+h2{
+    font-size: 25px;
+    color: var(--cor-de-texto);
 }
 
 
@@ -92,6 +104,18 @@ h3{
 section.title{
     display: flex;
 
+}
+
+.title__div>img{
+    height: 110px;
+    margin-top: 20px;
+}
+
+.title__network{
+    display: flex;
+    justify-content: left;
+    gap: 17px;
+    font-weight: 500;
 }
 
 /*Sección About*/

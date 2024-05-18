@@ -131,7 +131,7 @@ section.about{
 
 /*Sección Skills*/
 
-.skills{
+section.skills{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -162,7 +162,7 @@ section.about{
 
 /*Sección Hobbies*/
 
-.hobbies{
+section.hobbies{
     display: flex;
     flex-direction: column;
     justify-content: space-between;

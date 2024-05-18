@@ -264,9 +264,13 @@ section.experience{
 
 
 .experiencie__box{
-    
+    display: flex;
+    flex-direction: column;
 }
 
+.experience__box img{
+    max-width: 350px;
+}
 
 
 

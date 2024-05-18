@@ -135,7 +135,6 @@ section.about{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 70px;
     flex-wrap: wrap;
     width: auto;
     background: var(--cor-de-fundo);
@@ -167,7 +166,6 @@ section.about{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 70px;
     flex-wrap: wrap;
     width: auto;
     background: var(--cor-de-fundo);

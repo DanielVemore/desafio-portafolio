@@ -196,7 +196,23 @@ section.hobbies{
 /* Experiencia Académica*/
 
 section.academic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: auto;
+    background: var(--cor-de-fundo);
 
+}
+
+.academic__title{
+    align-self: center;
+}
+
+.academic__courses{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* experiencia*/

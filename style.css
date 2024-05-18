@@ -10,7 +10,8 @@ coloque nas sessões indicadas*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
    --cor-de-texto: #464646;
-   --cor-de-fondo2: #EAF2FD;
+   --cor-de-fondo2: #fff;
+   --cor-de-fondo3: #EAF2FD;
 }
 
 body {
@@ -71,7 +72,7 @@ section.menu{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    color: var(--cor-de-texto);
+    background: var(--cor-de-fundo);
     padding: 10px 20px;
 }
 
@@ -105,6 +106,7 @@ section.menu{
 section.title{
     display: flex;
     padding: 10px 20px;
+    background: var(--cor-de-fundo);
 }
 
 .title__div>img{
@@ -123,14 +125,75 @@ section.title{
 
 section.about{
     padding: 10px 20px;
-    background-color: var(--cor-de-fondo2);
+    background: var(--cor-de-fondo3);
 }
+
+
+/*Sección Skills*/
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    width: auto;
+    background: var(--cor-de-fundo);
+}
+
+.skills__title{
+    align-self: center;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills__box{
+    background: var(--cor-de-fondo2);
+    width: 120px;
+    padding: 30px;
+    flex-basis: auto;
+    margin: 10px;
+}
+
+
 
 /*Sección Hobbies*/
 
-section.hobbies{
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    width: auto;
+    background: var(--cor-de-fundo);
     
 }
+
+.hobbies__title{
+    align-self: center;
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.hobbies__box{
+    background: var(--cor-de-fondo2);
+    width: 120px;
+    padding: 30px;
+    flex-basis: auto;
+    margin: 10px;
+}
+
+
 
 /* Experiencia Académica*/
 

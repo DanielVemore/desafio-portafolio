@@ -202,6 +202,7 @@ section.hobbies{
 
 /* Experiencia Académica*/
 
+
 section.academic{
     display: flex;
     flex-direction: column;
@@ -220,25 +221,55 @@ section.academic{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .academic__courses__box{
-    width: 120px;
+    align-self: center;
     margin: 10px;
 }
 
+.academic__courses__list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.academic__courses__item__img{
+    display: flex;
+    justify-content: center;
+}
+
+
 .academic__courses__item__img{
     background: var(--cor-de-fondo2);
-    width: 300px;
+    width: 350px;
+    height: 150px;
+}
+
+.academic__courses__item__img>img{
+    width: 100px;
+    height: 60px;
+}
+
+.academic__courses__item__title>h4{
+    margin: 4px;
 }
 
 
 /* experiencia*/
 
 section.experience{
-
+    
 }
+
+
+.experiencie__box{
+    
+}
+
+
+
+
 
 /*Contacto*/
 

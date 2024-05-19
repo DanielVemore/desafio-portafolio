@@ -302,6 +302,8 @@ section.formcontato{
 /*footeer*/
 
 section.footer{
+    display: flex;
+    justify-content: center;
    
 }
 

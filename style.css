@@ -282,6 +282,10 @@ section.formcontato{
 
 }
 
+.formcontato__esquerda{
+    display: none;
+}
+
 /*footeer*/
 
 section.footer{

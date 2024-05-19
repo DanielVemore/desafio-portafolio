@@ -259,7 +259,9 @@ section.academic{
 /* experiencia*/
 
 section.experience{
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -271,7 +273,6 @@ section.experience{
 .experience__box img{
     max-width: 350px;
 }
-
 
 
 

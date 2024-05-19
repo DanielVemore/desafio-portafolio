@@ -241,6 +241,8 @@ section.academic{
 
 
 .academic__courses__item__img{
+    display: flex;
+    align-items: center;
     background: var(--cor-de-fondo2);
     width: 350px;
     height: 150px;
@@ -304,6 +306,7 @@ section.formcontato{
 section.footer{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
    
 }
 

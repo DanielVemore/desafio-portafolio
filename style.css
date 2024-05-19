@@ -209,7 +209,7 @@ section.academic{
     justify-content: space-between;
     flex-wrap: wrap;
     width: auto;
-    background: var(--cor-de-fundo);
+    background: var(--cor-de-fondo3);
 
 }
 
@@ -279,8 +279,21 @@ section.experience{
 /*Contacto*/
 
 section.formcontato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: var(--cor-de-fondo3);
 
 }
+
+
+.formcontato__text{
+    display: flex;
+    flex-flow: column;
+    max-width: 350px;
+    justify-content: center;
+}
+
 
 .formcontato__esquerda{
     display: none;
